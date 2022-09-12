@@ -36,7 +36,7 @@
             </div>
         </nav>
         <!-- Page Header-->
-        <header class="masthead" style="background-image: url('assets/img/post-bg.jpg')" id="articletop">
+        <header class="masthead" style="background-image: url('assets/img/zoom.png')" id="articletop">
             <div class="container position-relative px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
@@ -54,23 +54,227 @@
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
                         <h2 id="section1" class="section-heading">Introduction</h2>
-                        <p>Blabla.</p>
+                        <p>Les utilisateurs peuvent avoir toutes sortes de limitations et de besoins particuliers. L'accessibilité vise à permettre l'utilisation d'une ressource malgré ces limitations et ces besoins particuliers.</p>
+                        <p>Lorsque nous parlons d'accessibilité, l'image qui vient généralement est celle d'une personne en fauteuil roulant ou aveugle. Mais l'accessibilité rejoint un bien plus grand nombre de cas. Par exemple, le daltonisme. L'utilisation de certaines couleurs peuvent rendre difficile l'utilisation d'une ressource pour certaines personnes. Ou les problèmes de vision, comme les cataractes. N'offrir qu'une taille de polices de caractères pourrait rendre inutilisable la ressource pour toute une population. Ou des limitations temporaires, comme s'être cassé le bras. Ce qui impliquerait une adaptation à un autre mode de fonctionnement. Si la ressource ne permet pas ce genre d'adaptation, elle deviendra inutilisable, entrainant frustration pour cet utilisateur.</p>
                         <h2 id="section2" class="section-heading">Web</h2>
                         <p>Blabla.</p>
-                        <blockquote class="blockquote">Citation.</blockquote>
-                        <p>Blabla.</p>
+
+4 principles of Web Content Accessibility Guidelines (WCAG) :
+
+
+Perceivable: information presented in different ways
+
+Operable: functionality used in different modalities
+
+Understandable: information and functionality are understandable
+
+Robust: content can be interpreted by a variety of technologies
+
+
+W3C Web Accessibility Initiative (WAI)
+
+Web Content Accessibility Guidelines (WCAG)
+Authoring Tool Accessibility Guidelines (ATAG)
+User Agent Accessibility Guidelines (UAAG)
+
+
+WCAG 2.0
+
+2008
+12 guidelines for the 4 POUR principles
+61 sucess criteria divided in 3 levels : A, AA, AAA
+
+
+
+WCAG 2.1
+
+2018
+Improvement for :
+
+people with cognitive and learning disabilities
+people with low vision
+users of mobile devices
+
+
+Must first conform to WCAG 2.0
+Add 13 guidelines for the 4 POUR principles
+Add 78 sucess criteria divided in 3 levels : A, AA, AAA
+
+
+
+Basic accessibility checks
+
+A First Review of Web Accessibility
+WAVE extension
+Web developer toolbar
+Color contrast analyzer
+Before and After Demonstration
+
+
+Perceivable
+
+
+text alternatives for images
+
+if image is decorative (example: a border), it must be hidden to assistive technologies (example : screen reader).
+text alternative must be:
+
+meaningful
+descriptive
+no repetition
+
+
+if image is actionable, must provide information about the function.
+
+
+
+Time-based media
+
+audio
+video
+video with audio
+alternatives methods:
+
+captions
+transcripts
+audio description
+sign language
+
+
+
+
+
+Adaptable content
+
+content that can be presented in different ways
+example: headings
+
+Web Developer Toolbar->Outline->Headings
+or
+
+Web Developer Toolbar->Information->View Document Outline
+
+
+
+
+
+Checking structure
+
+Web Developer Toolbar->Images->Replace Images With Alt Attributes
+and
+
+Web Developer Toolbar->CSS->Disable All Styles
+and
+
+Web Developer Toolbar->Miscellaneous->Linearize page
+
+
+
+Distinguishable content
+
+
+Make it easier for users to see and hear content including separating foreground from background.
+
+
+Checking contrast ratio
+
+Color Contrast Analyzer Tool
+Color Contrast Checker
+
+
+
+Checking text resize
+
+Increase zoom in browser ([ctrl]+[+])
+Increase text size in browser (Settings->Appearance->Font size)
+
+
+
+
+Operable
+
+Keyboard accessible
+Make all functionality available from a keyboard.
+Check for:
+
+Tab to all controls and form elements
+Tab away: exit from this control/element
+Tab order: follow logical reading order
+Focus clearly visible
+All functionality by keyboard
+
+
+Enough time
+Provide users enough time to read and use content.
+
+Avoid physical reactions and seizure
+Do not design content in a way that is known to cause seizures or physical reactions.
+Examples :
+
+Bliking
+Flashing
+Fast moving content
+Color patterns
+
+
+Navigable content
+Provide ways to help users navigate, find content, and determine where they are.
+
+Check page title : different for each page and meaningful. Most important information must appear first.
+
+
+Input modalities
+Make it easier for users to operate functionality through various inputs beyond keyboard.
+
+Understable
+
+Readable content
+Make text content readable and understandable.
+
+Predictable content
+Make Web pages appear and operate in predictable ways.
+
+Input assistance
+Help users avoid and correct mistakes.
+Examples :
+
+Indicate required fields
+Validate form fields:
+
+date format
+number
+specific format like phone number
+
+
+Use meaningful labels
+Provide clear instructions
+Show clear error report and way to solve it
+
+
+Robust
+
+Compatible
+Maximize compatibility with current and future user agents, including assistive technologies.
+
+WAI-ARIA
+How to Meet WCAG (Quick Reference)
+
+
+
+                        <a tabindex="0" href="#!"><img class="img-fluid" src="assets/img/wave.png" alt="..." /></a>
+                        <span class="caption text-muted">Exemple de rapport du logiciel d'évaluation de l'accessibilité Wave.</span>
                         <h2 id="section3" class="section-heading">Ailleurs</h2>
-                        <p>Blabla.</p>
+                        <p>L'accessibilité ne se limite pas qu'au web. Les applications sur les ordinateurs et les appareils mobiles doivent aussi en tenir compte. Il est frustrant qu'une interface exige l'emploi d'une souris ou ne puisse être lu et contrôlé par la voix.</p>
+                        <p>Puis, une grande part de la population mondiale n'emploi que des appareils mobiles, principalement des téléphones, ce sur des réseaux désuets. Il facile de l'oublier lorsque nous sommes dotés de la dernière technologie, mais si nous voulons rejoindre le plus grand nombre de personnes possible, nous devons y penser.</p>
                         <blockquote class="blockquote">Citation.</blockquote>
                         <p>Blabla.</p>
-                        <a tabindex="0" href="#!"><img class="img-fluid" src="assets/img/post-sample-image.jpg" alt="..." /></a>
-                        <span class="caption text-muted">Description.</span>
-                        <p>Blabla.</p>
+                        <a tabindex="0" href="#!"><img class="img-fluid" src="assets/img/config_accessibilite.png" alt="..." /></a>
+                        <span class="caption text-muted">Panneau de configuration de l'accessibilité.</span>
                         <h2 id="ref">Références</h2>
                         <ul>
-                        <li><a title="Lien 1" tabindex="0" href="#!">Lien 1</a></li>
-                        <li><a title="Lien 2" tabindex="0" href="#!">Lien 2</a></li>
-                        <li><a title="Lien 3" tabindex="0" href="#!">Lien 3</a></li>
+                        <li><a title="MOOC" tabindex="0" href="https://www.edx.org/course/web-accessibility-introduction">Web Accessibility Introduction</a></li>
+                        <li><a title="WAI" tabindex="0" href="https://www.w3.org/WAI/">Web Accessibility Initiative</a></li>
+                        <li><a title="Outils" tabindex="0" href="https://www.w3.org/WAI/ER/tools/">Liste d'outils d'aide à l'évaluation de l'accessibilité web</a></li>
                         </ul>
                     </div>
                 </div>
@@ -99,7 +303,7 @@
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a title="Introduction to Web Accessibility" target="_blank" rel="noopener noreferrer" tabindex="0" href="https://www.youtube.com/watch?v=20SHvU2PKsM">
+                                <a title="Introduction à l'accessibilité web" target="_blank" rel="noopener noreferrer" tabindex="0" href="https://www.youtube.com/watch?v=20SHvU2PKsM">
                                     <span class="fa-stack fa-lg">
                                         <i class="fas fa-circle fa-stack-2x"></i>
                                         <i class="fa-solid fa-film fa-stack-1x fa-inverse"></i>
