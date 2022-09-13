@@ -5,18 +5,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="Accessibilité 101" />
         <meta name="author" content="Nicolas St-Laurent" />
-        <title>Article</title>
+        <title>Accessibilité</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body>
-        <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
             <div class="container px-4 px-lg-5">
                 <a class="navbar-brand" tabindex="0"  href="../index.html">Nist</a>
@@ -35,7 +31,6 @@
                 </div>
             </div>
         </nav>
-        <!-- Page Header-->
         <header class="masthead" style="background-image: url('assets/img/zoom.png')" id="articletop">
             <div class="container position-relative px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
@@ -48,7 +43,6 @@
                 </div>
             </div>
         </header>
-        <!-- Post Content-->
         <article class="mb-4">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
@@ -57,230 +51,67 @@
                         <p>Les utilisateurs peuvent avoir toutes sortes de limitations et de besoins particuliers. L'accessibilité vise à permettre l'utilisation d'une ressource malgré ces limitations et ces besoins particuliers.</p>
                         <p>Lorsque nous parlons d'accessibilité, l'image qui vient généralement est celle d'une personne en fauteuil roulant ou aveugle. Mais l'accessibilité rejoint un bien plus grand nombre de cas. Par exemple, le daltonisme. L'utilisation de certaines couleurs peuvent rendre difficile l'utilisation d'une ressource pour certaines personnes. Ou les problèmes de vision, comme les cataractes. N'offrir qu'une taille de polices de caractères pourrait rendre inutilisable la ressource pour toute une population. Ou des limitations temporaires, comme s'être cassé le bras. Ce qui impliquerait une adaptation à un autre mode de fonctionnement. Si la ressource ne permet pas ce genre d'adaptation, elle deviendra inutilisable, entrainant frustration pour cet utilisateur.</p>
                         <h2 id="section2" class="section-heading">Web</h2>
-                        <p>Blabla.</p>
-
-4 principles of Web Content Accessibility Guidelines (WCAG) :
-
-
-Perceivable: information presented in different ways
-
-Operable: functionality used in different modalities
-
-Understandable: information and functionality are understandable
-
-Robust: content can be interpreted by a variety of technologies
-
-
-W3C Web Accessibility Initiative (WAI)
-
-Web Content Accessibility Guidelines (WCAG)
-Authoring Tool Accessibility Guidelines (ATAG)
-User Agent Accessibility Guidelines (UAAG)
-
-
-WCAG 2.0
-
-2008
-12 guidelines for the 4 POUR principles
-61 sucess criteria divided in 3 levels : A, AA, AAA
-
-
-
-WCAG 2.1
-
-2018
-Improvement for :
-
-people with cognitive and learning disabilities
-people with low vision
-users of mobile devices
-
-
-Must first conform to WCAG 2.0
-Add 13 guidelines for the 4 POUR principles
-Add 78 sucess criteria divided in 3 levels : A, AA, AAA
-
-
-
-Basic accessibility checks
-
-A First Review of Web Accessibility
-WAVE extension
-Web developer toolbar
-Color contrast analyzer
-Before and After Demonstration
-
-
-Perceivable
-
-
-text alternatives for images
-
-if image is decorative (example: a border), it must be hidden to assistive technologies (example : screen reader).
-text alternative must be:
-
-meaningful
-descriptive
-no repetition
-
-
-if image is actionable, must provide information about the function.
-
-
-
-Time-based media
-
-audio
-video
-video with audio
-alternatives methods:
-
-captions
-transcripts
-audio description
-sign language
-
-
-
-
-
-Adaptable content
-
-content that can be presented in different ways
-example: headings
-
-Web Developer Toolbar->Outline->Headings
-or
-
-Web Developer Toolbar->Information->View Document Outline
-
-
-
-
-
-Checking structure
-
-Web Developer Toolbar->Images->Replace Images With Alt Attributes
-and
-
-Web Developer Toolbar->CSS->Disable All Styles
-and
-
-Web Developer Toolbar->Miscellaneous->Linearize page
-
-
-
-Distinguishable content
-
-
-Make it easier for users to see and hear content including separating foreground from background.
-
-
-Checking contrast ratio
-
-Color Contrast Analyzer Tool
-Color Contrast Checker
-
-
-
-Checking text resize
-
-Increase zoom in browser ([ctrl]+[+])
-Increase text size in browser (Settings->Appearance->Font size)
-
-
-
-
-Operable
-
-Keyboard accessible
-Make all functionality available from a keyboard.
-Check for:
-
-Tab to all controls and form elements
-Tab away: exit from this control/element
-Tab order: follow logical reading order
-Focus clearly visible
-All functionality by keyboard
-
-
-Enough time
-Provide users enough time to read and use content.
-
-Avoid physical reactions and seizure
-Do not design content in a way that is known to cause seizures or physical reactions.
-Examples :
-
-Bliking
-Flashing
-Fast moving content
-Color patterns
-
-
-Navigable content
-Provide ways to help users navigate, find content, and determine where they are.
-
-Check page title : different for each page and meaningful. Most important information must appear first.
-
-
-Input modalities
-Make it easier for users to operate functionality through various inputs beyond keyboard.
-
-Understable
-
-Readable content
-Make text content readable and understandable.
-
-Predictable content
-Make Web pages appear and operate in predictable ways.
-
-Input assistance
-Help users avoid and correct mistakes.
-Examples :
-
-Indicate required fields
-Validate form fields:
-
-date format
-number
-specific format like phone number
-
-
-Use meaningful labels
-Provide clear instructions
-Show clear error report and way to solve it
-
-
-Robust
-
-Compatible
-Maximize compatibility with current and future user agents, including assistive technologies.
-
-WAI-ARIA
-How to Meet WCAG (Quick Reference)
-
-
-
-                        <a tabindex="0" href="#!"><img class="img-fluid" src="assets/img/wave.png" alt="..." /></a>
-                        <span class="caption text-muted">Exemple de rapport du logiciel d'évaluation de l'accessibilité Wave.</span>
+                        <p>L'organisation qui établit les standards du web, le <a title="World Wide Web Consortium" target="_blank" rel="noopener noreferrer" tabindex="0"href="https://www.w3.org/" >World Wide Web Consortium</a>, a établi une norme d'accessibilité, le <a title="Web Content Accessibility Guidelines" target="_blank" rel="noopener noreferrer" tabindex="0" href="https://www.w3.org/WAI/standards-guidelines/wcag/" >Web Content Accessibility Guidelines</a>.<a title="Principes d'accessibilité" target="_blank" rel="noopener noreferrer" tabindex="0" href="https://www.w3.org/WAI/fundamentals/accessibility-principles/fr">Cette norme est basée sur quatre principes</a> :</p>
+                        <ol>
+                            <li>Percetible: l'information est présentée de différentes façons.</li>
+                            <li>Opérable: la fonctionalité est utilisable selon différentes modalités.</li>
+                            <li>Compréhensible: l'information et la fonctionalité sont compréhensibles.</li>
+                            <li>Robuste: le contenu peut être interprété par une variété de technologies.</li>
+                        </ol>
+                        <p>Le standard évolue pour suivre l'évolution technologique. Mais chaque version inclus la précédente. En clair, la version 2.0 est la version 1.0 plus les ajouts de la version 2.0.</p>
+                        <h3>WCAG 2.0</h3>
+                        <ul>
+                            <li>Date de 2008.</li>
+                            <li>Contient 12 directives pour les quatres principes.</li>
+                            <li>Comprend 61 critères de succès, divisés en 3 niveaux :</li>
+                            <ol>
+                                <li>A : le plus facile à atteindre</li>
+                                <li>AA : demande davantage de travail pour l'atteindre</li>
+                                <li>AAA : difficile à atteindre. Être dédié pour y arriver.</li>
+                            </ol>
+                        </ul>
+                        <p>Malgré que le niveau A soit aisé à atteindre, peu de site y arrive, faute de conscientisation. L'organisation WebAIM évalue un million de sites à chaque année. <a title="Étude sur un million de sites" target="_blank" rel="noopener noreferrer" tabindex="0" href= "https://webaim.org/projects/million/">Un peu plus de 3% respecte le standard WCAG</a>. Il y a donc encore bien du travail à faire.</p>
+                        <h3>WCAG 2.1</h3>
+                        <ul>
+                            <li>Date de 2018.</li>
+                            <li>Améliorations pour :</li>
+                            <ul>
+                                <li>les personnes avec des limitations congnitives et d'apprentissage</li>
+                                <li>les personnes ayant une faible vision</li>
+                                <li>les utilisateurs d'appareils mobiles</li>
+                            </ul>
+                            <li>Doit d'abord se conformer à la version 2.0</li>
+                            <li>Ajoute 13 directives</li>
+                            <li>Ajoute 78 critères de succès, divisés entre les niveaux A, AA, AAA</li>
+                        </ul>
+                        <p>Afin de respecter le standard WCAG, des outils ont été développé. Bien qu'ils soient utiles, ils ne peuvent détecter tous les problèmes. Rien de tel que de se mettre dans la peau de quelqu'un avec des limitations pour détecter les problèmes.</p>
+                        <ul>
+                            <li>Comment se comporte le site dans un lecteur d'écran ?</li>
+                            <li>Le site est-il entièrement utilisable au clavier ?</li>
+                            <li>Est-ce qu'appliquer un grossissement des caractères rend le site incompréhensible, voir inutilisable ?</li>
+                            <li>Est-il lisible avec différentes palettes de couleur ou différents éclairages ?</li>
+                            <li>Les images sont-elles décrites ?</li>
+                            <li>Les vidéos ont-elles des sous-titres ?</li>
+                            <li>etc.</li>
+                        </ul>
+                        <p>Au final, l'accessibilité web est notre responsabilité et revient à se demander combien d'utilisateurs pouvons-nous perdre faute de rendre notre site accessible ?</p>
+                        <a tabindex="0" href="#!"><img class="img-fluid" src="assets/img/wave.png" alt="Rapport d'accessibilité du logiciel WAVE" /></a>
+                        <span class="caption text-muted">Exemple de rapport du logiciel d'évaluation de l'accessibilité du logiciel WAVE.</span>
                         <h2 id="section3" class="section-heading">Ailleurs</h2>
                         <p>L'accessibilité ne se limite pas qu'au web. Les applications sur les ordinateurs et les appareils mobiles doivent aussi en tenir compte. Il est frustrant qu'une interface exige l'emploi d'une souris ou ne puisse être lu et contrôlé par la voix.</p>
                         <p>Puis, une grande part de la population mondiale n'emploi que des appareils mobiles, principalement des téléphones, ce sur des réseaux désuets. Il facile de l'oublier lorsque nous sommes dotés de la dernière technologie, mais si nous voulons rejoindre le plus grand nombre de personnes possible, nous devons y penser.</p>
-                        <blockquote class="blockquote">Citation.</blockquote>
-                        <p>Blabla.</p>
-                        <a tabindex="0" href="#!"><img class="img-fluid" src="assets/img/config_accessibilite.png" alt="..." /></a>
-                        <span class="caption text-muted">Panneau de configuration de l'accessibilité.</span>
+                        <a tabindex="0" href="#!"><img class="img-fluid" src="assets/img/config_accessibilite.png" alt="Exemple de la configuration de l'accessibilité" /></a>
+                        <span class="caption text-muted">Panneau de configuration de l'accessibilité sous Linux Mint Cinnamon.</span>
                         <h2 id="ref">Références</h2>
                         <ul>
-                        <li><a title="MOOC" tabindex="0" href="https://www.edx.org/course/web-accessibility-introduction">Web Accessibility Introduction</a></li>
-                        <li><a title="WAI" tabindex="0" href="https://www.w3.org/WAI/">Web Accessibility Initiative</a></li>
+                        <li><a title="MOOC" tabindex="0" href="https://www.edx.org/course/web-accessibility-introduction">Cours Introduction à l'accessibilité web</a></li>
+                        <li><a title="WAI" tabindex="0" href="https://www.w3.org/WAI/">Initiative accessibilité web</a></li>
                         <li><a title="Outils" tabindex="0" href="https://www.w3.org/WAI/ER/tools/">Liste d'outils d'aide à l'évaluation de l'accessibilité web</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </article>
-        <!-- Footer-->
         <footer class="border-top">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
@@ -316,9 +147,7 @@ How to Meet WCAG (Quick Reference)
                 </div>
             </div>
         </footer>
-        <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
     </body>
 </html>
